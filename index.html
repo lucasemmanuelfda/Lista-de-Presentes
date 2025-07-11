@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Lista de Presentes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎁 Minha Lista de Presentes</h1>
+        <p>Escolha um presente e contribua com um Pix!</p>
+    </header>
+    <main id="gift-list">
+        <!-- Os presentes serão carregados aqui pelo JavaScript -->
+    </main>
+    
+    <!-- Modal para informações do Pix -->
+    <div id="pixModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>💳 Informações para Pagamento</h2>
+            <div class="pix-info">
+                <p><strong>Presente selecionado:</strong> <span id="selectedGift"></span></p>
+                <p><strong>Valor:</strong> <span id="selectedValue"></span></p>
+                <p>Faça um Pix para a chave abaixo:</p>
+                <div class="pix-key" id="pixKey">sua.chave@pix.com</div>
+                <button class="copy-btn" onclick="copyPixKey()">📋 Copiar Chave</button>
+                <p><small>Após o pagamento, você receberá uma confirmação por email.</small></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Minha Lista de Presentes. Feito com ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
