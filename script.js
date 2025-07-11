@@ -6,40 +6,82 @@ document.addEventListener('DOMContentLoaded', () => {
     // Lista de presentes - você pode personalizar aqui
     const gifts = [
         {
-            name: 'Jantar Romântico',
-            value: 150.00,
-            description: 'Um jantar especial para dois em um restaurante aconchegante.',
-            image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop'
+            name: 'Air fryer',
+            value: 450.00,
+            description: 'Fritadeira sem óleo, ideal para refeições mais saudáveis.',
+            image: 'https://images.unsplash.com/photo-1617196038026-9f862ba4b42d?w=400&h=300&fit=crop'
         },
         {
-            name: 'Viagem dos Sonhos',
-            value: 500.00,
-            description: 'Contribuição para nossa lua de mel ou viagem especial.',
-            image: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&h=300&fit=crop'
+            name: 'Microondas',
+            value: 550.00,
+            description: 'Micro-ondas para aquecimento rápido e prático no dia a dia.',
+            image: 'https://images.unsplash.com/photo-1586201375761-83865001daed?w=400&h=300&fit=crop'
         },
         {
-            name: 'Eletrodoméstico Novo',
-            value: 250.00,
-            description: 'Para equipar nossa casa com o que precisamos.',
-            image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=300&fit=crop'
+            name: 'Armário de cozinha',
+            value: 900.00,
+            description: 'Armário para organizar utensílios e otimizar espaço na cozinha.',
+            image: 'https://images.unsplash.com/photo-1586201372330-4a2b2b171bb0?w=400&h=300&fit=crop'
         },
         {
-            name: 'Kit Spa em Casa',
-            value: 120.00,
-            description: 'Para momentos de relaxamento e autocuidado.',
-            image: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=300&fit=crop'
+            name: 'Mesa de jantar e cadeiras',
+            value: 1800.00,
+            description: 'Conjunto completo de mesa com cadeiras para até 6 pessoas.',
+            image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400&h=300&fit=crop'
         },
         {
-            name: 'Curso Online',
+            name: 'Sofá',
+            value: 1800.00,
+            description: 'Sofá confortável para sala com 2–3 lugares.',
+            image: 'https://images.unsplash.com/photo-1587502536263-3cac92676308?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Jogo de prato e talheres',
             value: 200.00,
-            description: 'Investimento em conhecimento e desenvolvimento pessoal.',
-            image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop'
+            description: 'Conjunto completo de pratos e talheres para refeições.',
+            image: 'https://images.unsplash.com/photo-1543351611-10410a230a63?w=400&h=300&fit=crop'
         },
         {
-            name: 'Decoração para Casa',
-            value: 180.00,
-            description: 'Itens especiais para deixar nosso lar ainda mais bonito.',
-            image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop'
+            name: 'Jogo de panela',
+            value: 550.00,
+            description: 'Conjunto de panelas antiaderentes ou inox, ideal para cozinha.',
+            image: 'https://images.unsplash.com/photo-1556911073-52527ac437a9?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Jogo de cama',
+            value: 380.00,
+            description: 'Lençóis, fronhas e edredom para cama de casal, 400–1000 fios.',
+            image: 'https://images.unsplash.com/photo-1600180758895-4ecb9b668c36?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Cama e colchão',
+            value: 2000.00,
+            description: 'Cama box casal com colchão de qualidade média.',
+            image: 'https://images.unsplash.com/photo-1585386959984-a41552248650?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Guarda-roupa',
+            value: 1200.00,
+            description: 'Roupeiro com portas e divisórias para organização de roupas.',
+            image: 'https://images.unsplash.com/photo-1589812323595-3d3c91f558c6?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'TV',
+            value: 1800.00,
+            description: 'TV LED Smart de 43–50″ para sala, com resolução Full HD ou 4K.',
+            image: 'https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Ar condicionado',
+            value: 1800.00,
+            description: 'Split 9 000–12 000 BTU, ideal para climatizar ambientes.',
+            image: 'https://images.unsplash.com/photo-1586471234910-29cf0bc736f1?w=400&h=300&fit=crop'
+        },
+        {
+            name: 'Espelho',
+            value: 300.00,
+            description: 'Espelho decorativo de parede para quarto ou sala.',
+            image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=400&h=300&fit=crop'
         }
     ];
 
